@@ -26,6 +26,10 @@ body {
      width: 100%;
      border: 5px solid black;
      box-sizing: border-box;
+     display: flex;
+     justify-content: space-between;
+     padding-left: 20px;
+     padding-right: 20px;
 }
 /* PLAYER 1 SECTION END */
 
@@ -44,5 +48,31 @@ body {
      width: 100%;
      border: 5px solid black;
      box-sizing: border-box;
+     display: flex;
+     justify-content: space-between;
+     padding-left: 20px;
+     padding-right: 20px;
+
 }
 /* PLAYER 1 SECTION END */
+
+
+
+.cardSlot {
+     background-color: lightgrey;
+     height: 250px;
+     width: 150px;
+}
+
+.cardImg {
+     background-color: transparent;
+     height: auto;
+     width: 100%;
+     
+}
+
+.avatar {
+     background-color: aquamarine;
+     height: 250px;
+     width: 150px;
+}
