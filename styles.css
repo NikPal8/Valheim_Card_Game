@@ -76,3 +76,9 @@ body {
      height: 250px;
      width: 150px;
 }
+
+/* Player Buttons */
+
+button {
+     font-size: 2rem;
+}

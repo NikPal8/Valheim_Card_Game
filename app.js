@@ -8,14 +8,14 @@ const p1CardSlot4 = document.querySelector('#p1CardSlot4');
 //Maybe add binary arrays?
 const cardSlotValues = [false, false, false, false];
 
-const cardImages = [];
+// const cardImages = [];
 
-for (let i = 1; i <= 54; i++) {
-    const cardImg = document.createElement('img');
-    cardImg.className = 'cardImg';
-    cardImg.src = `Valheim_Images/Card_${i}.png`;
-    cardImages.push(cardImg);
-}
+// for (let i = 1; i <= 54; i++) {
+//     const cardImg = document.createElement('img');
+//     cardImg.className = 'cardImg';
+//     cardImg.src = `Valheim_Images/Card_${i}.png`;
+//     cardImages.push(cardImg);
+// }
 /**
  * Random number generator
  * @returns Number
@@ -61,4 +61,8 @@ function checkCardSlots() {
 
 p1Avatar.addEventListener('click', () => {
     checkCardSlots();
+});
+
+p2Avatar.addEventListener('click', () => {
+    checkCardSlots2();
 });
